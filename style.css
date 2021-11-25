@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body{
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-color: hsl(217, 54%, 11%);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    /*justify-content: flex-end*/
+    /*justify-content: flex-start*/
+    /* align-items: center;  align's verticaly centre */
+    /*align-items: flex-end*/
+    /*align-items: flex-start*/
+    /*more justify and align, try on chrome inspect*/
+    flex-wrap: wrap; /*wrap-reverse*/
+}
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    margin: 12px;
+    width: 20%;
+    min-width: 250px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    align-self: center;
+    box-shadow: 1px 1px 20px 4px #0d192b;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.item-image{
+    align-self: center;
+}
+h2{
+    padding: 0;
+    
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+}
+p,.text1,.text2,.founder{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+.item-text{
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+}
+.main-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 7px;
+    flex-wrap: wrap;
+}
+.item1,.item2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.text1,.text2{
+    /* padding-left: 5px; */
+    position: relative;
+    bottom: 1px;
+    left: 5px;
+    font-size: 15px;
+}
+.text1{
+    color: hsl(178, 100%, 50%);
+}
+.logo{
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 51%;
+    
+}
+.bottom{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 10px;
+}
+.founder{
+    padding-left: 10px;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+.jules{
+    color: white;
+}
+.attribution{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+
